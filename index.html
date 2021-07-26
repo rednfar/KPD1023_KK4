@@ -55,6 +55,47 @@
         width: 100%;
         height: auto;
       }
+      /*CONTENT*/
+      .kandungan {
+        background-image: linear-gradient(indigo,purple);;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+      .form {
+        border-radius: 5px;
+        width: 22%;
+        text-align: center;
+        padding: 10px;
+        margin-left: 2%;
+      }
+      .hantar {
+        border-radius: 5px;
+        width: 22%;
+        text-align-last: center;
+        padding: 10px;
+        margin-left: 2%;
+        background-color: wheat;
+      }
+      .hantar:hover {
+        background-color: yellow;
+      }
+      table {
+        background-color: white;
+        width: 300px;
+        text-align: center;
+        margin-top: 20px;
+      }
+      /*FOOTER*/
+      .kaki {
+        text-align: center;
+        padding: 5px;
+        background-color: indigo;
+        color: white;
+      }
+      *{
+        box-sizing: border-box;
+        margin: 0;
+      }
   </head>
   
   
@@ -87,10 +128,44 @@
         <img src="slideshow/slider_3.jpg" class="mySlides">
       </div>
     <!--CONTENT-->
-    
-    
+      <div class="kandungan">
+        <form action="">
+          <select class="form">
+            <option>Please Choose</option>
+            <option>Batu Caves, Malaysia</option>
+            <option>Taj Mahal, India</option>
+            <option>Eiffel Tower, Perancis</option>
+           </select>
+           <input type="date" class="form">
+           <input type="text" class="form" placeholder="Enquiry">
+           <input type="submit" value="Send Enquiry" class="hantar"
+        </form>
+      
+        <marquee direction="">
+          <table border="2">
+            <tr>
+               <th>Landmark</th>
+               <th>Nation</th>
+            </tr>
+            <tr>
+               <td>KLCC</td>
+               <td>Malaysia</td>
+            </tr>
+            <tr>
+               <td>Stonehenge</td>
+               <td>United Kingdom</td>
+            </tr>
+            <tr>
+               <td>Pyramid</td>
+               <td>Mesir</td>
+            </tr>
+           </table>
+         </marquee>
+      </div>
     <!--FOOTER-->
-    
-    <script type="text/javascript" src="https://
+      <div class="kaki">
+          <font>Copyright &copy; All Rights Reserved 2021, Setia Travel Agency</font>
+      </div>
+    <script type="text/javascript" src="https://mrqiyud25.github.io/KPD1023_KK4/script.js"></script>
   </body>
 </html>
